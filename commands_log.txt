@@ -76,7 +76,124 @@ Final folder tree under linux_practice:
 linux_practice/
   project/
     app.txt
+    app.txt
     notes.txt
     tasks.txt
   logs/
-    activity.log
+    activity.logLast login: Fri Nov 28 17:44:56 on ttys000
+admin@Admins-MBP ~ % cat commands_log.txt
+admin@Admins-MBP ~ % vim app.txt
+
+admin@Admins-MBP ~ % vim app.txt
+admin@Admins-MBP ~ % open -a TextEdit notes.txt
+admin@Admins-MBP ~ % open -a TextEdit notes.txt
+admin@Admins-MBP ~ % cat notes.txt
+Linux-ը բաց կոդով օպերացիոն համակարգ է Թերմինալը թույլ է տալիս կառավարել ֆայլեր Գործում է սերվերներում և embedded համակարգերում Ունի տարբեր դիստրիբուտիվներ՝ Ubuntu, Fedora, Debian Հաճախ օգտագործվում է ծրագրավորման և DevOps-ի համար%         admin@Admins-MBP ~ % nano commands_log.txt
+admin@Admins-MBP ~ % cat commands_log.txt
+
+admin@Admins-MBP ~ % cd ~/linux_practice
+
+admin@Admins-MBP linux_practice % git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+admin@Admins-MBP linux_practice % git commit -m "Update commands_log.txt, app.txt and notes.txt"
+
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	activity.log
+	linux_practise
+	logs/
+	project/
+
+nothing added to commit but untracked files present (use "git add" to track)
+admin@Admins-MBP linux_practice % git push -u origin main
+
+Username for 'https://github.com': HAYKVRADERESYAN
+Password for 'https://HAYKVRADERESYAN@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/HAYKVARDERESYAN/linux_practice.git/'
+admin@Admins-MBP linux_practice % git push -u origin 
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+admin@Admins-MBP linux_practice % git push -u origin main
+
+Username for 'https://github.com': HAYKVARDERESYAN
+Password for 'https://HAYKVARDERESYAN@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/HAYKVARDERESYAN/linux_practice.git/'
+admin@Admins-MBP linux_practice % cd ~/linux_practice/project
+
+admin@Admins-MBP project % nano tasks.txt
+admin@Admins-MBP project % grep "level up" tasks.txt
+1 level up python knowlegde
+admin@Admins-MBP project % grep "Linux" tasks.txt | wc -l
+
+       0
+admin@Admins-MBP project % cd ~/linux_practice
+
+admin@Admins-MBP linux_practice % git commit -m "Update tasks.txt with programming goals and grep examples"
+
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	activity.log
+	linux_practise
+	logs/
+	project/
+
+nothing added to commit but untracked files present (use "git add" to track)
+admin@Admins-MBP linux_practice % git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+admin@Admins-MBP linux_practice % git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+admin@Admins-MBP linux_practice % git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+admin@Admins-MBP linux_practice % git remote add origin https://github.com/haikvarderesyan11-dot/linux_practise.git
+
+error: remote origin already exists.
+admin@Admins-MBP linux_practice % git push -u origin main
+
+Username for 'https://github.com': HAYKVARDERESYAN
+Password for 'https://HAYKVARDERESYAN@github.com': 
+remote: Repository not found.
+fatal: repository 'https://github.com/HAYKVARDERESYAN/linux_practice.git/' not found
+admin@Admins-MBP linux_practice % >....                                         
+        add
+admin@Admins-MBP linux_practice % git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+admin@Admins-MBP linux_practice % git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+admin@Admins-MBP linux_practice % git remote add origin https://github.com/haikvarderesyan11-dot/linux_practise.git
+
+error: remote origin already exists.
+admin@Admins-MBP linux_practice % git push -u origin main
+
+Username for 'https://github.com': HAYKVARDERESYAN
+Password for 'https://HAYKVARDERESYAN@github.com': 
+remote: Repository not found.
+fatal: repository 'https://github.com/HAYKVARDERESYAN/linux_practice.git/' not found
+admin@Admins-MBP linux_practice % 
+
+
