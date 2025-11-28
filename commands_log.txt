@@ -1,0 +1,82 @@
+Part 1 – File system and navigation
+
+All commands and their outputs:
+
+$ mkdir -p linux_practice
+Exit code: 0
+Output:
+(no output)
+
+------------------------------------------------------------
+
+$ mkdir -p linux_practice/project linux_practice/logs
+Exit code: 0
+Output:
+(no output)
+
+------------------------------------------------------------
+
+$ touch linux_practice/project/app.txt linux_practice/project/notes.txt linux_practice/project/tasks.txt
+Exit code: 0
+Output:
+(no output)
+
+------------------------------------------------------------
+
+$ cd linux_practice && pwd
+Exit code: 0
+Output:
+/mnt/data/linux_practice
+
+------------------------------------------------------------
+
+$ cd linux_practice && ls -la
+Exit code: 0
+Output:
+total 0
+drwxr-xr-x 2 sandbox sandbox  80 Nov 28 13:42 .
+drwxr-xr-x 2 sandbox sandbox  60 Nov 28 13:42 ..
+drwxr-xr-x 2 sandbox sandbox  40 Nov 28 13:42 logs
+drwxr-xr-x 2 sandbox sandbox 100 Nov 28 13:42 project
+
+------------------------------------------------------------
+
+$ touch linux_practice/logs/activity.log
+Exit code: 0
+Output:
+(no output)
+
+------------------------------------------------------------
+
+$ printf 'First random line\nSecond random line\nThird random line\nFourth random line\nFifth random line\n' > linux_practice/logs/activity.log
+Exit code: 0
+Output:
+(no output)
+
+------------------------------------------------------------
+
+$ cd linux_practice && tail -n 2 logs/activity.log
+Exit code: 0
+Output:
+Fourth random line
+Fifth random line
+
+------------------------------------------------------------
+
+$ cd linux_practice && head -n 2 logs/activity.log
+Exit code: 0
+Output:
+First random line
+Second random line
+
+------------------------------------------------------------
+
+Final folder tree under linux_practice:
+
+linux_practice/
+  project/
+    app.txt
+    notes.txt
+    tasks.txt
+  logs/
+    activity.log
